@@ -1,4 +1,4 @@
-![logo](static\images\clutter_logo.png)
+![logo](static/images/clutter_logo.png)
 
 # Clutter
 
