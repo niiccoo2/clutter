@@ -83,12 +83,12 @@ img {
         </h1>
     </div>
 
-    <div style="text-align: center; transform: rotate(0deg); margin-top: -13vh">
+    <div style="text-align: center; transform: rotate(0deg); margin-top: -13vh;">
         <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
     
-    <div class="text-center p-10 flex justify-center" style="margin-top: -10vh;">
-        Made with <span class="hover:animate-bounce">❤️</span> by SuperNinjaCat5 
+    <div class="text-center p-10 flex justify-center" style="margin-top: -15vh; position: relative; z-index: 1;">
+        Made with <span class="hover:animate-bounce">❤️</span> by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">SuperNinjaCat5</a> 
     </div>  
 
     <!-- <div style="text-align: center;">
