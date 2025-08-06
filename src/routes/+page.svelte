@@ -91,7 +91,7 @@ img {
     </div>
     
     <div class="text-center p-10 flex justify-center" style="margin-top: -15vh; position: relative; z-index: 1; my-nata text-shadow: 2px 2px 4px #000; font-weight: 700; color: #7e846b;">
-        Made with <span class="hover:animate-bounce">❤️</span> by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">SuperNinjaCat5</a> 
+        Made with <span class="hover:animate-bounce">❤️</span> by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">Ben & Nico</a> 
     </div>  
 
     <!-- <div style="text-align: center;">
