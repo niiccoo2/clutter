@@ -79,14 +79,17 @@ img {
         <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: none;">RSVP here!</a>
         </h1>
         <h1 class="text-center londrina drab-dark-brown-2" style="font-size: 2rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -33%); text-shadow: 2px 2px 4px #000; font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
-        <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: none; display: block; width: 100%;">You ship an applicaiton<br> that cleans up your<br> computer, when ship you <br>something to <br>organize your desk.</a>
+        <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: none; display: block; width: 100%;">You ship an script that <br>organizes up your<br> computer, we ship you <br>something to <br>organize your desk.</a>
         </h1>
     </div>
 
     <div style="text-align: center; transform: rotate(0deg); margin-top: -13vh">
         <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
-
+    
+    <div class="text-center p-10 flex justify-center" style="margin-top: -10vh;">
+        Made with <span class="hover:animate-bounce">❤️</span> by SuperNinjaCat5 
+    </div>  
 
     <!-- <div style="text-align: center;">
         <h1 class="text-center Orbitron" style="font-size: 4rem;">
