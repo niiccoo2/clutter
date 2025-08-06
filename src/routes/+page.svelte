@@ -55,6 +55,10 @@
         </h1>
     </div>
 
+    <div style="text-align: center; transform: rotate(-5deg)">
+        <img src="images/trash_piles.png" alt="Clutter at the bottom" style="max-width: 100%; height: auto; display: block; margin: 0 auto; overflow: hidden; margin-top: -10rem">
+    </div>
+
 
     <!-- <div style="text-align: center;">
         <h1 class="text-center Orbitron" style="font-size: 4rem;">
