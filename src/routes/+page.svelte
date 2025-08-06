@@ -1,3 +1,4 @@
+<svelte:head><link rel="icon" type="image/png" href="/favicon.png" /></svelte:head>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Nata+Sans:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
     <title>Clutter - YSWS</title>
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
 </head>
 
 <style>
