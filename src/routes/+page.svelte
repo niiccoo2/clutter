@@ -67,11 +67,12 @@ img {
 
 </style>
 
-<body style="background-color: #594e36; overflow: hidden;"> <!-- Remove overflow hidden maybe later not for rsvp -->
-    <div style="color: #7e846b; width: 102%; padding: 1rem 0; transform: rotate(10deg); box-sizing: border-box;">
-        <h1 class="text-center my-nata" style="font-size: 8rem; margin: 0; text-shadow: 2px 2px 4px #000; font-weight: 700;">
+<body style="background-color: #594e36; overflow: hidden; text-align: center;"> <!-- Remove overflow hidden maybe later not for rsvp -->
+    <div style="color: #7e846b; width: 102%; padding: 1rem 0; transform: rotate(10deg); box-sizing: border-box;"> 
+        <!-- <h1 class="text-center my-nata" style="font-size: 8rem; margin: 0; text-shadow: 2px 2px 4px #000; font-weight: 700;"> 
             <span class="rounded-lg inline-block" style="color: #7e846b;">Clutter</span>
-        </h1>
+        </h1> -->
+        <img src="images/clutter_banner_website.png" alt="Clutter at the bottom" style="display: block; width: 25vw; height: 25vh; margin: 0 auto" />
     </div>
     
     <div style="position: relative; text-align: center; transform: rotate(-5deg)">
@@ -85,7 +86,7 @@ img {
         </h1>
     </div>
 
-    <div style="text-align: center; transform: rotate(0deg); margin-top: -13vh;">
+    <div style="text-align: center; transform: rotate(0deg); margin-top: -20vh;">
         <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
     
