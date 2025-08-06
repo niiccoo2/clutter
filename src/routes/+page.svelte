@@ -83,8 +83,8 @@ img {
         </h1>
     </div>
 
-    <div style="text-align: center; transform: rotate(0deg); margin-top: -20vh">
-        <img src="images/trash_piles.png" alt="Clutter at the bottom" style="max-width: 100%; height: auto; display: block; margin: 0 auto; overflow: hidden">
+    <div style="text-align: center; transform: rotate(0deg); margin-top: -13vh">
+        <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
 
 
