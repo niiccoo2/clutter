@@ -81,7 +81,7 @@ img {
         <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: none;">RSVP here!</a>
         </h1>
         <h1 class="text-center londrina drab-dark-brown-2" style="font-size: 2rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -33%); text-shadow: 2px 2px 4px #000; font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
-        <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: none; display: block; width: 100%;">You ship an script that <br>organizes up your<br> computer, we ship you <br>something to <br>organize your desk.</a>
+        <span class="rounded-lg inline-block" style="text-decoration: none; display: block; width: 100%;">You ship an script that <br>organizes up your<br> computer, we ship you <br>something to <br>organize your desk.</span>
         </h1>
     </div>
 
@@ -89,7 +89,7 @@ img {
         <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
     
-    <div class="text-center p-10 flex justify-center" style="margin-top: -15vh; position: relative; z-index: 1;">
+    <div class="text-center p-10 flex justify-center" style="margin-top: -15vh; position: relative; z-index: 1; my-nata text-shadow: 2px 2px 4px #000; font-weight: 700; color: #7e846b;">
         Made with <span class="hover:animate-bounce">❤️</span> by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">SuperNinjaCat5</a> 
     </div>  
 
