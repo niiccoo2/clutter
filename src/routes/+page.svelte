@@ -91,6 +91,6 @@ img {
     </div>
 
     <div class="text-center p-10 flex justify-center" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
-        Made with <span class="hover:animate-bounce">❤️</span> by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">Ben & Nico</a> 
+        Made with  <span class="hover:animate-bounce">❤️</span>  by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;">Ben</a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw;">Nico</a> 
     </div>  
 </div>
