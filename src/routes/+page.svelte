@@ -88,7 +88,7 @@
 .trash-wrapper {
   text-align: center;
   transform: rotate(0deg);
-  margin-top: -40vh;
+  margin-top: -43vh;
 }
 
 @media (max-width: 768px) {
@@ -103,6 +103,26 @@
     padding-bottom: 2rem;
   }
 }
+
+.made_with_heart {
+  margin-top: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .made_with_heart {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .made_with_heart {
+    margin-top: 0.5rem; 
+    font-size: 0.8rem;
+  }
+}
+
 
 
 html, body {
@@ -141,11 +161,9 @@ img {
             <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.3; ">You ship a script <br/>that organizes your<br> computer, we ship you <br>something to <br>organize your desk!</span>
             </h1>
         </div>
-        <br><br><br>
         <div class="text-center p-10 flex justify-center made_with_heart" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
             Made with  <span class="hover:animate-bounce">❤️</span>  by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Nico </a> 
         </div>  
-
         <div class="trash-wrapper trash-image">
           <img src="images/trash_piles.png" alt="Clutter at the bottom">
         </div>
