@@ -93,14 +93,13 @@
 
 @media (max-width: 768px) {
   .trash-wrapper {
-    margin-top: -10vh; 
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
   .trash-wrapper {
-    margin-top: 0vh; 
-    padding-bottom: 2rem;
+    display: none;
   }
 }
 
@@ -110,16 +109,13 @@
 
 @media (max-width: 768px) {
   .made_with_heart {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    flex-direction: column;
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
   .made_with_heart {
-    margin-top: 0.5rem; 
-    font-size: 0.8rem;
+    display: none;
   }
 }
 
