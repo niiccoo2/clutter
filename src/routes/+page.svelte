@@ -85,17 +85,22 @@
   }
 }
 
+.trash-wrapper {
+  text-align: center;
+  transform: rotate(0deg);
+  margin-top: -40vh;
+}
+
 @media (max-width: 768px) {
-  .trash-image {
-    width: 70vw;     
-    max-width: 300px;
+  .trash-wrapper {
+    margin-top: -10vh; 
   }
 }
 
 @media (max-width: 480px) {
-  .trash-image {
-    width: 85vw;     
-    max-width: 260px;
+  .trash-wrapper {
+    margin-top: 0vh; 
+    padding-bottom: 2rem;
   }
 }
 
@@ -136,13 +141,13 @@ img {
             <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.3; ">You ship a script <br/>that organizes your<br> computer, we ship you <br>something to <br>organize your desk!</span>
             </h1>
         </div>
-
-        <div class="text-center p-10 flex justify-center" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
+        <br><br><br>
+        <div class="text-center p-10 flex justify-center made_with_heart" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
             Made with  <span class="hover:animate-bounce">❤️</span>  by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Nico </a> 
         </div>  
 
-        <div style="text-align: center; transform: rotate(0deg); margin-top: -25vh" class="trash">
-          <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+        <div class="trash-wrapper trash-image">
+          <img src="images/trash_piles.png" alt="Clutter at the bottom">
         </div>
     </div>
 </body>
