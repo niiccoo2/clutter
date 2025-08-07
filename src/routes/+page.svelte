@@ -65,25 +65,40 @@
 
 .logo-image {
   display: block;
-  width: 40vw;       /* Reasonable default for desktop */
-  max-width: 400px;  /* Prevent it from getting *too* big */
+  width: 40vw;       
+  max-width: 400px;  
   height: auto;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .logo-image {
-    width: 70vw;     /* More screen width on tablets/phones */
+    width: 70vw;     
     max-width: 300px;
   }
 }
 
 @media (max-width: 480px) {
   .logo-image {
-    width: 85vw;     /* Even more on small phones */
+    width: 85vw;     
     max-width: 260px;
   }
 }
+
+@media (max-width: 768px) {
+  .trash-image {
+    width: 70vw;     
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trash-image {
+    width: 85vw;     
+    max-width: 260px;
+  }
+}
+
 
 html, body {
   height: 100%;
@@ -101,7 +116,7 @@ img {
 
 </style>
 
-<body>
+<body style="background-color: #594e36; overflow: hidden;">
     <div style="background-color: #594e36;">
         <div style="transform: rotate(10deg); overflow-x: hidden; padding: 1rem 0;">
             <img 
@@ -115,15 +130,19 @@ img {
             <img src="images/notebook_paper.png" alt="Notebook paper" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
             <!-- <h1 class="Orbitron" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2rem; color: #2f2504; margin: 0;"> -->
             <h1 class="text-center handwritten" style="color: #334195; text-align: center; font-size: 3rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -180%); font-weight: 700; width: 80%; max-width: 600px;">
-            <a href="/RSVP" class="rounded-lg inline-block" style="text-decoration: underline;">RSVP here!</a>
+            <a href="/RSVP" class="rounded-lg inline-block londrina" style="text-decoration: underline; color: #7e846b;">RSVP here!</a>
             </h1>
-            <h1 class="text-center handwritten" style="color: #334195; font-size: 1.4rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -30%); font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
-            <span class="rounded-lg inline-block" style="text-decoration: none; display: block; width: 100%; line-height: 1.3;">You ship a script <br/>that organizes your<br> computer, we ship you <br>something to <br>organize your desk!</span>
+            <h1 class="text-center handwritten drab-dark-brown-2" style="color: #334195; font-size: 1.4rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -30%); font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
+            <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.3; ">You ship a script <br/>that organizes your<br> computer, we ship you <br>something to <br>organize your desk!</span>
             </h1>
         </div>
 
         <div class="text-center p-10 flex justify-center" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
-            Made with  <span class="hover:animate-bounce">❤️</span>  by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw;"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw;"> Nico </a> 
+            Made with  <span class="hover:animate-bounce">❤️</span>  by <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Nico </a> 
         </div>  
+
+        <div style="text-align: center; transform: rotate(0deg); margin-top: -25vh" class="trash">
+          <img src="images/trash_piles.png" alt="Clutter at the bottom" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+        </div>
     </div>
 </body>
