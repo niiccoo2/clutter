@@ -63,6 +63,30 @@
     display: none;
 }
 
+.logo-image {
+  display: block;
+  width: 40vw;       /* Reasonable default for desktop */
+  max-width: 400px;  /* Prevent it from getting *too* big */
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 70vw;     /* More screen width on tablets/phones */
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    width: 85vw;     /* Even more on small phones */
+    max-width: 260px;
+  }
+}
+
+
+
 img {
   position: relative;
   z-index: -1; 
@@ -72,11 +96,12 @@ img {
 </style>
 
 <div style="background-color: #594e36;">
-    <div style="color: #7e846b; padding: 1rem 0; transform: rotate(10deg); box-sizing: border-box; overflow-x: hidden;"> 
-        <!-- <h1 class="text-center my-nata" style="font-size: 8rem; margin: 0; text-shadow: 2px 2px 4px #000; font-weight: 700;"> 
-            <span class="rounded-lg inline-block" style="color: #7e846b;">Clutter</span>
-        </h1> -->
-        <img src="images/clutter_banner_website.png" alt="Clutter at the bottom" style="display: block; width: 25vw; height: 25vh; margin: 0 auto" />
+    <div style="transform: rotate(10deg); overflow-x: hidden; padding: 1rem 0;">
+        <img 
+            src="images/clutter_banner_website.png" 
+            alt="Clutter logo" 
+            class="logo-image" 
+        />
     </div>
 
     <div style="position: relative; text-align: center; transform: rotate(-5deg); overflow-x: hidden;">
