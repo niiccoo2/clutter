@@ -86,15 +86,22 @@
 }
 
 .trash-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  transform: rotate(0deg);
-  margin-top: -43vh;
+  z-index: 10;
 }
 
+
+
 @media (max-width: 768px) {
-  .trash-wrapper {
-    display: none;
-  }
+.trash-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
 }
 
 @media (max-width: 480px) {
