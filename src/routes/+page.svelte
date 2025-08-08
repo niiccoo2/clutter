@@ -63,6 +63,7 @@
     display: none;
 }
 
+
 .logo-image {
   display: block;
   width: 40vw;       
@@ -147,6 +148,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  .names {
+    margin-left: 0.4vw !important;  
+    margin-right: 0.4vw !important;
+  }
+  .y_tag {
+    margin-right: 0.4vw !important;  
+  }
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -184,7 +195,7 @@ img {
             </h1>
         </div>
         <div class="text-center p-10 flex justify-center made_with_heart" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b; overflow: hidden;">
-            Made with  <span class="hover:animate-bounce">❤️</span>  b<a href="/3.14">y</a> <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw; margin-right: 0.2vw;"> Nico </a> 
+            Made with  <span class="hover:animate-bounce">❤️</span>  b<a href="/3.14" class="y_tag">y</a> <a href="https://github.com/SuperNinjaCat5" style="margin-left: 0.2vw; margin-right: 0.2vw;" class="names"> Ben </a> & <a href="https://github.com/niiccoo2" style="margin-left: 0.2vw; margin-right: 0.2vw;" class="names"> Nico </a> 
         </div>  
         <div class="trash-wrapper trash-image" style="overflow: hidden;">
           <img src="images/trash_piles.png" alt="Clutter at the bottom">
