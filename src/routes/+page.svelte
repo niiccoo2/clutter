@@ -75,6 +75,7 @@
   .logo-image {
     width: 70vw;     
     max-width: 300px;
+    max-height: 20vh;
   }
 }
 
@@ -103,6 +104,8 @@
   display: block;
 }
 
+
+
 @media (max-width: 768px) {
   .trash-wrapper {
     height: auto; 
@@ -111,6 +114,7 @@
 
 @media (max-width: 480px) {
   .trash-wrapper {
+    display: none;
     display: none;
   }
 }
@@ -138,6 +142,7 @@
 
 @media (max-width: 375px) {
   .made_with_heart {
+    display: none;
     display: none;
   }
 }
