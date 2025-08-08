@@ -180,7 +180,7 @@ img {
             <a href="/RSVP" class="rounded-lg inline-block londrina" style="text-decoration: underline; color: #7e846b;">RSVP here!</a>
             </h1>
             <h1 class="text-center handwritten drab-dark-brown-2" style="color: #334195; font-size: 1.4rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -30%); font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
-            <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.3; ">You ship a script <br/>that organizes your<br> computer, we ship you <br>something to <br>organize your desk!</span>
+            <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.35; ">You ship a script <br/>to organizes your<br> digital life, we ship you <br>something to <br>organize your<br> physical life!</span>
             </h1>
         </div>
         <div class="text-center p-10 flex justify-center made_with_heart" style="position: relative; z-index: 1; font-weight: 700; color: #7e846b;">
