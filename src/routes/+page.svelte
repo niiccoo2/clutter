@@ -151,7 +151,7 @@ img {
         <div style="position: relative; text-align: center; transform: rotate(-5deg); overflow-x: hidden; overflow: hidden;">
             <img src="images/notebook_paper.png" alt="Notebook paper" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
             <h1 class="text-center handwritten drab-dark-brown-2" style="color: #334195; font-size: 1.6rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -41%); font-weight: 200; max-width: 600px; text-align: center; overflow-wrap: break-word;">
-            <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.1; ">You ship a script <br/>that organizes your<br> digital life, <br> we ship you stuff to <br>organize your<br> physical life! <br><br> SCROLL! V V V V</span>
+            <span class="rounded-lg inline-block drab-dark-brown-2" style="text-decoration: none; display: block; width: 100%; line-height: 1.1; ">You ship a script <br/>that organizes your<br> digital life, <br> we ship you stuff to <br>organize your<br> physical life! <br><br> ‎‎‎‎‎‎‎  ‎  ‎  ‎  ‎ </span>
             </h1>
         </div>
         
