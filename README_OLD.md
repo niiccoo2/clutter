@@ -4,15 +4,13 @@
 
 You ship a script that organizes your computer, we ship you something to organize your desk!
 
-[`clutter.niiccoo2.xyz`](https://clutter.niiccoo2.xyz/).
+> [`clutter.niiccoo2.xyz`](https://clutter.niiccoo2.xyz/).
 
 ## Creating a project
 
-LATER
-
-STUFF
-
-HERE
+You can make anything that declutters your *digital* life.
+ 
+MORE STUFF HERE
 
 ## Submitting
 
